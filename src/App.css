@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+header{
+  padding: 1rem;
+  box-shadow: 10px 10px 10px #cdcdcd;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.todo-btn{
+  background-color: #12f2a7;
+  padding: .5rem 1rem;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.main-contents, .container{
+  max-width: 900px;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.main-contents{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.container form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.container form label{
+  font-weight: 900;
+}
+
+form .todo-btn{
+  max-width: 100px;
+  width: 100%;
+}
+
+input, textarea{
+  border: 1px solid #aeaeae;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+textarea{
+  height: 10vh;
+}
+
+.main-contents article{
+  max-width: 200px;
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 5px 4px 7px #cdcdcd;
+  border-radius: 20px;
+}
